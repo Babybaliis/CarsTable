@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Cars characteristic</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <script src="service.js"></script>
+        <form className="form">
+            <table>
+                <caption>GARAGE</caption>
+               <tbody> 
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Owner</th>
+                </tr>
+                <tr>
+                    <td ><input id='Name' type='text' disabled="true"></td>
+                    <td ><input id='Email' type='text' disabled="true"/></td>
+                    <td ><input id='Owner' type='text' disabled="true"/></td>
+                </tr>
+            </tbody> 
+            </table>
+            <input id='edit' name="edit" type="button" value='edit' onclick="onStaticClick()"/>
+            <input id='save' name="save" type="button" value='save' hidden=true onclick="onDynamicClick()"/>
+        </br>
+            <table ><caption>ITEM</caption>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>KeyValues</th>
+                    <th>Original</th>
+                </tr>
+                <tr>    
+                    <td id="Title"></td>
+                    <td id="Description"></td>
+                    <td id="KeyValues"></td>
+                    <td id="Original"></td>
+                    
+                </tr>
+            </table>
+        </form>    
+</body>
+</html>

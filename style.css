@@ -1,0 +1,56 @@
+table {
+    margin-top: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    border-collapse: collapse;
+    color: #686461;
+    height: auto;
+    width: 100%;
+  }
+  caption {
+    padding: 10px;
+    color: white;
+    background: #8FD4C1;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+  }
+  th {
+    border-bottom: 3px ridge #B9B29F;
+    padding: 10px;
+    text-align: center;
+    background: #d7fff3;
+  }
+  td {
+    border: 1px solid #B9B29F;
+    padding: 10px;
+    background: #faf6f5;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+  }
+ 
+  td:nth-child(2) {
+  width: 20% ;
+  }
+
+  ul,.First {
+    margin: 0px;
+    padding: 20px;
+    text-align: left;
+  }
+
+  td#KeyValues {
+    padding: 0px;
+    text-align: center;
+  }
+
+  input#edit, input#save {
+      margin: 10px;
+      font-size: 20px;
+      position: relative;
+      left: 47%;
+      background-color: #8FD4C1;
+      border-radius: 8px;
+      align-items: center;
+      width: 70px;
+  }
